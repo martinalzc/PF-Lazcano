@@ -1,1 +1,9 @@
-@import "utilities/variables"
+@import "utilities/variables";
+@import "base/fonts";
+@import "base/reset";
+@import "base/tipography";
+@import "layout/header";
+@import "components/hero";
+@import "components/buttons";
+@import "views/about";
+@import "layout/footer";

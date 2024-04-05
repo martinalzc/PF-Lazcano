@@ -1,0 +1,19 @@
+.header__background{
+	background-color:$primary-color;
+}
+
+nav{
+    div{
+        a{
+            h1{
+                color: $secondary-color;
+                font-weight: 700;
+            }
+        }
+
+    }
+}
+
+.logo{
+    width: 40px;
+}

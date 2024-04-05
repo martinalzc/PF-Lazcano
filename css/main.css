@@ -1,10 +1,10 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
-@font-face {
+/* @font-face {
 	font-family: "Inter";
 	src: url(../assets/fonts/Inter-VariableFont.ttf);
 }
@@ -17,12 +17,12 @@ h1, h2, h3, h4, h5, h6{
 p, a, li, span, nav, div, button, footer{
 	font-family: "Inter", sans-serif;
 	font-weight: 400;
-}
+} */
 
 /* ========================================================================= */
 /* =================================== NAVBAR ============================== */
 
-.header__background{
+/* .header__background{
 	background-color: #F8F0E5;
 }
 
@@ -33,12 +33,12 @@ nav div a h1{
 
 .logo{
     width: 40px;
-}
+} */
 
 /* ========================================================================= */
 /* =================================== HERO ================================ */
 
-svg{
+/* svg{
     width: 270px;
 	padding: 60px 0 30px 0;
 	background-color: #F8F0E5;
@@ -71,9 +71,9 @@ svg{
 
 .hero__content-h2>p{
 	color: #5C6574;
-}
+} */
 
-#hero__container-buttons-primary{
+/* #hero__container-buttons-primary{
 	background-color: #0F2C59;
 	color: #F8F0E5;
 	border: #0F2C59;
@@ -96,9 +96,9 @@ svg{
 #hero__container-buttons-secondary:hover{
 	background-color: #0F2C59;
 	outline: 3px solid #5C6574;
-}
+} */
 
-@media (min-width:1024px){
+/* @media (min-width:1024px){
 	.hero__content-container{
 		display: flex;
 		flex-direction: row;
@@ -147,12 +147,12 @@ svg{
 	#hero__container-buttons-primary{
 		font-size: 20px;
 	}
-}
+} */
 
 /* ========================================================================= */
 /* =================================== ABOUT =============================== */
 
-.about__container-nice{
+/* .about__container-nice{
 	text-align: center;
 	background-color: #EADBC8;
 	color: #0F2C59;
@@ -187,9 +187,9 @@ svg{
 .about__container-derecha{
 	background-color: #EADBC8;
 	padding: 30px 20px 30px 20px;
-}
+} */
 
-@media (min-width:1024px){
+/* @media (min-width:1024px){
 	.about__container{
 		display: flex;
 		flex-direction: column;
@@ -229,12 +229,12 @@ svg{
 	.about__container-derecha>div{
 		width: 450px;
 	}
-}
+} */
 
 /* ========================================================================= */
 /* =================================== FOOTER ============================== */
 
-.card-header{
+/* .card-header{
     color: #0F2C59;
 }
 
@@ -252,7 +252,7 @@ svg{
 .card-body p{
 	color: #5C6574;
 	font-size: 15px;
-}
+} */
 
 #footer-button{  
 	background-color: #0F2C59;

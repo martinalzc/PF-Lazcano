@@ -1,0 +1,22 @@
+#hero__container-buttons-primary{
+	background-color:$secondary-color;
+	color:$primary-color;
+	border:$secondary-color;
+	box-shadow: $box-shadow;
+	font-size: 17px;
+    &:hover{
+        background-color:$extra-color;
+	    outline: 3px solid $secondary-color;
+    }
+}
+
+#hero__container-buttons-secondary{
+	color: $primary-color;
+	border:$secondary-color;
+	box-shadow: $box-shadow;
+	font-size: 17px;
+    &:hover{
+        background-color:$secondary-color;
+	    outline: 3px solid $extra-color;
+    }
+}
