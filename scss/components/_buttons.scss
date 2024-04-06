@@ -20,3 +20,15 @@
 	    outline: 3px solid $extra-color;
     }
 }
+
+#footer-button{  
+	background-color: $secondary-color;
+	color: $primary-color;
+	border: $secondary-color;
+	box-shadow: $box-shadow;
+	&:hover{
+		background-color: $extra-color;
+	    outline: 3px solid $secondary-color;
+	}
+}
+

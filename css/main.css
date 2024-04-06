@@ -254,7 +254,7 @@ nav div a h1{
 	font-size: 15px;
 } */
 
-#footer-button{  
+/* #footer-button{  
 	background-color: #0F2C59;
 	color: #F8F0E5;
 	border: #0F2C59;
@@ -264,9 +264,9 @@ nav div a h1{
 #footer-button:hover{
 	background-color: #5C6574;
 	outline: 3px solid #0F2C59;
-}
+} */
 
-@media (min-width:1024px){
+/* @media (min-width:1024px){
 	.logo-footer{
 		width: 60px;
 	}
@@ -282,12 +282,12 @@ nav div a h1{
 	.card-body p{
 		font-size: 17px;
 	}
-}
+} */
 
 /* ========================================================================= */
 /* =================================== PRODUCTOS =========================== */
 
-.products-container{
+/* .products-container{
 	display: grid;
 	grid-template-areas: 
 	    "card__1"
@@ -337,9 +337,9 @@ nav div a h1{
 
 .card__3{
 	grid-area: card__3;
-}
+} */
 
-@media (min-width:1024px){
+/* @media (min-width:1024px){
 	.products-container{
 		padding: 80px 0 80px;
 		row-gap: 90px;
@@ -352,9 +352,9 @@ nav div a h1{
 		grid-template-rows: repeat(3, auto);
 		justify-content: space-evenly;
 	}
-}
+} */
 
-@media (min-width:600px) and (max-width:1023px){
+/* @media (min-width:600px) and (max-width:1023px){
 	.products-container{
 		grid-template-areas: 
 		"card__1 card__2"
@@ -370,4 +370,4 @@ nav div a h1{
 		row-gap: 50px;
 		padding: 60px 0 60px;
 	}
-}
+} */

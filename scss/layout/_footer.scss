@@ -1,5 +1,5 @@
 .card-header{
-    color: #0F2C59;
+    color: $secondary-color;
 }
 
 .logo-footer{
@@ -8,7 +8,7 @@
 
 .card-body{
     h5{
-	color: #0F2C59;
+	color: $secondary-color;
 	font-weight: bold;
 	padding: 10px 0 10px;
     }
@@ -16,7 +16,25 @@
 
 .card-body{ 
     p{
-	color: #5C6574;
+	color: $extra-color;
 	font-size: 15px;
     }
+}
+
+@media (min-width:1024px){
+	.logo-footer{
+		width: 60px;
+	}
+
+	.card-body h5{
+		font-size: 25px;
+	}
+	
+	#footer-button{  
+		font-size: 18px;
+	}
+	
+	.card-body p{
+		font-size: 17px;
+	}
 }
