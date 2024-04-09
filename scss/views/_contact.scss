@@ -1,0 +1,57 @@
+
+
+
+
+
+main{
+    background-color: $primary-color;
+}
+
+.contact__info{
+    display: grid;
+	grid-template-areas: 
+	    "item-1"
+	    "item-2"
+	    "item-3"
+	;
+    grid-template-columns: auto;
+	grid-template-rows: auto;
+	justify-content: center;
+	row-gap: 30px;
+	padding: 40px 0 40px ;
+}
+
+.item-1{
+    grid-area: item-1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.item-2{
+    grid-area: item-2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.item-3{
+    grid-area: item-3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.icon{
+    width: 40px;
+    color: $secondary-color;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+
+

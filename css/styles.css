@@ -93,7 +93,7 @@ svg {
   svg {
     width: 400px;
   }
-  .hero__content-container-h2 {
+  .hero__content-container h2 {
     font-size: 50px;
   }
   #hero__container-buttons-secondary {
@@ -242,9 +242,9 @@ svg {
 }
 .products-container {
   display: grid;
-  grid-template-areas: "card__1" "card__2" "card__3" "card__4" "card__5" "card__6" "card__7" "card__8" "card__9" "card__10" "card__11" "card__12";
+  grid-template-areas: "card__1" "card__2" "card__3" "card__4" "card__5" "card__6" "card__7" "card__8" "card__9" "card__10" "card__11" "card__12" "card__13" "card__14" "card__15" "card__16" "card__17" "card__18" "card__19";
   grid-template-columns: auto;
-  grid-template-rows: repeat(12, auto);
+  grid-template-rows: repeat(19, auto);
   justify-content: center;
   row-gap: 30px;
   background-color: #EADBC8;
@@ -281,7 +281,7 @@ svg {
   .products-container {
     padding: 80px 0 80px;
     row-gap: 90px;
-    grid-template-areas: "card__1 card__2 card__3 card__4" "card__5 card__6 card__7 card__8" "card__9 card__10 card__11 card__12";
+    grid-template-areas: "card__1 card__2 card__3 card__4" "card__5 card__6 card__7 card__8" "card__9 card__10 card__11 card__12" "card__13 card__14 card__15 card__16" "card__17 card__18 card__19 .";
     grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(3, auto);
     justify-content: space-evenly;
@@ -296,6 +296,50 @@ svg {
     row-gap: 50px;
     padding: 60px 0 60px;
   }
+}
+main {
+  background-color: #F8F0E5;
+}
+
+.contact__info {
+  display: grid;
+  grid-template-areas: "item-1" "item-2" "item-3";
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  row-gap: 30px;
+  padding: 40px 0 40px;
+}
+
+.item-1 {
+  grid-area: item-1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.item-2 {
+  grid-area: item-2;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.item-3 {
+  grid-area: item-3;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.icon {
+  width: 40px;
+  color: #0F2C59;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 /*# sourceMappingURL=styles.css.map */

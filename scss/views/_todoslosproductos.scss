@@ -13,9 +13,16 @@
 		"card__10"
 		"card__11"
 		"card__12"
+		"card__13"
+		"card__14"
+		"card__15"
+		"card__16"
+		"card__17"
+		"card__18"
+		"card__19"
 	;
     grid-template-columns: auto;
-	grid-template-rows: repeat(12, auto);
+	grid-template-rows: repeat(19, auto);
 	justify-content: center;
 	row-gap: 30px;
 	background-color: $tertiary-color;
@@ -56,6 +63,8 @@
 		"card__1 card__2 card__3 card__4"
 		"card__5 card__6 card__7 card__8"
 		"card__9 card__10 card__11 card__12"
+		"card__13 card__14 card__15 card__16"
+		"card__17 card__18 card__19 ."
 		;
 		grid-template-columns: repeat(4, auto);
 		grid-template-rows: repeat(3, auto);
