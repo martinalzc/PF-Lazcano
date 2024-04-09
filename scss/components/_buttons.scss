@@ -4,6 +4,7 @@
 	border:$secondary-color;
 	box-shadow: $box-shadow;
 	font-size: 17px;
+	margin: 20px 0 0 0;
     &:hover{
         background-color:$extra-color;
 	    outline: 3px solid $secondary-color;
@@ -15,6 +16,7 @@
 	border:$secondary-color;
 	box-shadow: $box-shadow;
 	font-size: 17px;
+	margin: 20px 0 0 0;
     &:hover{
         background-color:$secondary-color;
 	    outline: 3px solid $extra-color;
@@ -31,4 +33,5 @@
 	    outline: 3px solid $secondary-color;
 	}
 }
+
 

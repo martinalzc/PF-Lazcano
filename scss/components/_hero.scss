@@ -11,30 +11,25 @@ svg{
 	text-align: center;
 	padding: 0 20px 50px 20px;
 	background-color: $primary-color;
-	gap: 10px;
+	gap: 30px;
     .hero__content-h2{
+		h2{
+            color: $secondary-color;
+            font-weight: bold;
+            font-size: 30px;
+        }
         h4{
             color: $secondary-color;
         }
-    }
-    .hero__content-h2{
-        p{
-            color: $extra-color;
-        }
-    }
-    .hero__content-h2{
-        div{
+		p{
+			color: $extra-color;
+		}
+		div{
+			padding-bottom: 10px;
             p{
                 color: $extra-color;
                 font-size: 13px;
             }
-        }
-    }
-    .hero__content-h2{
-        h2{
-            color: $secondary-color;
-            font-weight: bold;
-            font-size: 30px;
         }
     }
 }
@@ -47,46 +42,32 @@ svg{
 		column-gap: 80px;
 		height: 700px;
 		width: 100%;
-	}
-
-	.logo{
-		width: 60px;
-		margin-right: 25px;
-	}
-
-	.hero__content-h2 h4{
-		font-size: 35px;
-	}
-
-	.hero__content-h2>div>p{
-		font-size: 17px;
-	}
-
-	.hero__content-h2{
-		display: flex;
-		flex-direction: column;
-		gap: 20px;
-		width: 400px;
-	}
-
-	.hero__content-h2>p{
-		font-size: 20px;
-	}
-
+		.hero__content-h2{
+			width: 400px;
+			h2{
+				font-size: 70px;
+			}
+			h4{
+				font-size: 40px;
+			}
+			p{
+				font-size: 20px;
+			}
+			div{
+				p{
+					font-size: 17px;
+				}
+			}
+		}
+		#hero__container-buttons-secondary{
+			font-size: 20px;
+		}
+		#hero__container-buttons-primary{
+            font-size: 20px;
+		}
+	}	
 	svg{
-		width: 400px;
-	}
-
-	.hero__content-container h2{
-		font-size: 50px;
-	}
-
-	#hero__container-buttons-secondary{
-		font-size: 20px;
-	}
-
-	#hero__container-buttons-primary{
-		font-size: 20px;
+        width: 400px;
 	}
 } 
 

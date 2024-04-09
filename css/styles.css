@@ -44,7 +44,12 @@ svg {
   text-align: center;
   padding: 0 20px 50px 20px;
   background-color: #F8F0E5;
-  gap: 10px;
+  gap: 30px;
+}
+.hero__content-container .hero__content-h2 h2 {
+  color: #0F2C59;
+  font-weight: bold;
+  font-size: 30px;
 }
 .hero__content-container .hero__content-h2 h4 {
   color: #0F2C59;
@@ -52,14 +57,12 @@ svg {
 .hero__content-container .hero__content-h2 p {
   color: #5C6574;
 }
+.hero__content-container .hero__content-h2 div {
+  padding-bottom: 10px;
+}
 .hero__content-container .hero__content-h2 div p {
   color: #5C6574;
   font-size: 13px;
-}
-.hero__content-container .hero__content-h2 h2 {
-  color: #0F2C59;
-  font-weight: bold;
-  font-size: 30px;
 }
 
 @media (min-width: 1024px) {
@@ -71,36 +74,29 @@ svg {
     height: 700px;
     width: 100%;
   }
-  .logo {
-    width: 60px;
-    margin-right: 25px;
-  }
-  .hero__content-h2 h4 {
-    font-size: 35px;
-  }
-  .hero__content-h2 > div > p {
-    font-size: 17px;
-  }
-  .hero__content-h2 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  .hero__content-container .hero__content-h2 {
     width: 400px;
   }
-  .hero__content-h2 > p {
+  .hero__content-container .hero__content-h2 h2 {
+    font-size: 70px;
+  }
+  .hero__content-container .hero__content-h2 h4 {
+    font-size: 40px;
+  }
+  .hero__content-container .hero__content-h2 p {
+    font-size: 20px;
+  }
+  .hero__content-container .hero__content-h2 div p {
+    font-size: 17px;
+  }
+  .hero__content-container #hero__container-buttons-secondary {
+    font-size: 20px;
+  }
+  .hero__content-container #hero__container-buttons-primary {
     font-size: 20px;
   }
   svg {
     width: 400px;
-  }
-  .hero__content-container h2 {
-    font-size: 50px;
-  }
-  #hero__container-buttons-secondary {
-    font-size: 20px;
-  }
-  #hero__container-buttons-primary {
-    font-size: 20px;
   }
 }
 #hero__container-buttons-primary {
@@ -109,6 +105,7 @@ svg {
   border: #0F2C59;
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.247);
   font-size: 17px;
+  margin: 20px 0 0 0;
 }
 #hero__container-buttons-primary:hover {
   background-color: #5C6574;
@@ -120,6 +117,7 @@ svg {
   border: #0F2C59;
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.247);
   font-size: 17px;
+  margin: 20px 0 0 0;
 }
 #hero__container-buttons-secondary:hover {
   background-color: #0F2C59;
