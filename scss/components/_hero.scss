@@ -37,6 +37,12 @@ svg{
 				opacity: 0.6;
 			}
         }
+		.hero__content-botones{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			gap: 20px;
+		}
     }
 }
 
@@ -47,10 +53,11 @@ svg{
 		margin-right: 25px;
 	}    
 	.hero__content-container{
+		padding-top: 100px;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		column-gap: 80px;
+		column-gap: 100px;
 		height: 700px;
 		width: 100%;
 		.hero__content-h2{

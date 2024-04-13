@@ -1,15 +1,15 @@
 .hero2__content-container{
     padding: 30px 10px;
     .hero2__img{
-        width: 500px;
+        width: 450px;
         position: absolute;
-        top: 230px;
+        top: 350px;
         left: 75px;
     }
     .hero2__content{
         display: flex;
-	    flex-direction: column;
-	    align-items: left;
+        flex-direction: column;
+        align-content: center;
 	    text-align: left;
 	    gap: 30px;
         border: 2px solid $secondary-color;
@@ -25,9 +25,9 @@
             font-size: 25px;
         }
         .span{
-            padding: 20px 0 10px;
+            padding: 10px 0 10px;
             color: $extra-color;
-            font-size: 13px;
+            font-size: 16px;
             width: 200px;
         }
         span{
@@ -45,23 +45,23 @@
     }
     .hero2__content-1{
         p{
-        color: $extra-color;
-        font-size: 13px;
-        padding-left: 20px;
-        }
+            color: $extra-color;
+            font-size: 16px;
+            padding-left: 20px;
+            }
     }
     .hero2__content-2{
         padding: 0 0 60px 20px;
         p{
         color: $extra-color;
-        font-size: 13px;
+        font-size: 16px;
         }
     }
     .span{
         padding: 20px 0 0 0;
         color: $extra-color;
-        font-size: 13px;
-        width: 200px;
+        font-size: 16px;
+        width: 170px;
         text-align: left;
         padding-left: 20px;
     }
@@ -71,7 +71,7 @@
     .hero2__content-container{
         padding: 50px 300px;
         .hero2__img{
-            width: 1000px;
+            width: 1100px;
             top: 180px;
             left: 780px;
         }
@@ -127,30 +127,44 @@
 @media (min-width:788px) and (max-width:990px){
     .hero2__content-container{
         .hero2__img{
-        width: 800px;
-        top: 60px;
+        width: 850px;
+        top: 280px;
         left: 100px;
         }
         .hero2__content{
             .span{
-                font-size: 15px;
+                font-size: 18px;
+            }
+            h2{
+                font-size: 50px;
+            }
+            h4{
+                font-size: 30px;
+            }
+            span{
+                h3{
+                    font-size: 40px;
+                }
+                p{
+                    font-size: 28px;
+                }
             }
         }
         .span{
-            font-size: 15px;
+            font-size: 18px;
         }
         .hero2__content-1{
             p{
-                font-size: 15px;
+                font-size: 18px;
             }
         }
         .hero2__content-2{
             p{
-                font-size: 15px;
+                font-size: 18px;
             }
         }
         #hero__container-buttons-primary{
-            font-size: 20px;
+            font-size: 23px;
         }
     }
 }

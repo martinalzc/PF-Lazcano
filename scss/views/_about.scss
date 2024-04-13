@@ -1,35 +1,35 @@
-.about__container-nice{
-	text-align: center;
-	background-color: $tertiary-color;
-	color: $secondary-color;
-	padding: 5px 0 5px;
-}
-
-.about__container-linea{
-	margin-bottom: 0;
-}
-
-.about__titulo{
-	padding-top: 10px;
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.about__container-izquierda{
-	background-color: $primary-color;
-	padding: 40px 20px 20px 20px;
-    h3{
-	color: $secondary-color;
-	text-decoration:overline;
-    }
-}
-
-.about__container-derecha{ 
-	background-color: $tertiary-color;
-	padding: 30px 20px 30px 20px;
-	h3{
-	color: $secondary-color;
-	text-decoration: overline;
+.about__container{
+	.about__container-nice{
+		text-align: center;
+		background-color: $tertiary-color;
+		color: $secondary-color;
+		padding: 5px 0 5px;
+		p{
+			margin-bottom: 0;
+		}
+		h2{
+			padding-top: 10px;
+			font-size: 30px;
+			font-weight: bold;
+		}
+	}
+	.about__container-izquierda{
+		background-color: $primary-color;
+		padding: 40px 20px 20px 20px;
+		h3{
+		color: $secondary-color;
+		font-weight: bold;
+		font-size: 30px;
+		}
+	}	
+	.about__container-derecha{ 
+		background-color: $tertiary-color;
+		padding: 30px 20px 30px 20px;
+		h3{
+		color: $secondary-color;
+		font-weight: bold;
+		font-size: 30px;
+		}
 	}
 }
 
@@ -37,44 +37,39 @@
 	.about__container{
 		display: flex;
 		flex-direction: column;
+		padding-top: 120px;
 		width: 100%;
-	}
-
-	.about__titulo{
-		padding-top: 10px;
-	    font-size: 45px;
-	}
-
-	.about__content-image{
-		width: 500px;
-	}
-	
+		.about__container-nice{
+			h2{
+				padding: 10px;
+				font-size: 45px;
+			}
+		}
 	.about__container-izquierda{
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
 		width: 100%;
 		padding: 70px 0 70px;
-	}
-    
-	.about__container-izquierda{
 		div{
-		width: 450px;
+			width: 450px;
+			h3{
+				font-size: 40px;
+			}
 		}
 	}
-
 	.about__container-derecha{
-		background-color: #EADBC8;
 		display: flex;
 		flex-direction: row-reverse;
 		justify-content: space-evenly;
 		width: 100%;
 		padding: 70px 0 70px;
-	}
-
-	.about__container-derecha{
 		div{
-		width: 450px;
-	    }
-    }
+			width: 450px;
+			h3{
+				font-size: 40px;
+			}
+		}
+	}
+	}
 }

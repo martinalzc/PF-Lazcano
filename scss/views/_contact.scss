@@ -5,8 +5,7 @@ main{
 
 .hero2{
     .hero2__img{
-        width: 100%;
-        
+        width: 100%;      
     }
     div{
         display: flex;
@@ -51,6 +50,13 @@ main{
         align-items: center;
         padding-bottom: 30px;
         gap: 10px;
+        &:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+        }
         h3{
             color: $secondary-color;
             font-weight: bold;
@@ -89,19 +95,19 @@ main{
         justify-content: space-evenly;
         padding: 70px 0 90px;
         .contact__img{
-            width: 50px
+            width: 45px
         }
         .item{
             h3{
-                font-size: 38px;
+                font-size: 25px;
             }
             p{
-                font-size: 30px;
+                font-size: 20px;
             }
         }
     }
     .map{
-        padding-top: 90px;
+        padding-top: 100px;
     }
 }
 

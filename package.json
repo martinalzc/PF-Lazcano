@@ -10,5 +10,8 @@
     "TejiendoConGua"
   ],
   "author": "Martina Lazcano",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6"
+  }
 }
