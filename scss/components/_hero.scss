@@ -26,6 +26,9 @@ svg{
 		}
 		div{
 			padding-bottom: 10px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
             p{
                 color: $extra-color;
                 font-size: 13px;
@@ -35,6 +38,7 @@ svg{
 				box-shadow: $box-shadow;
 				transform: skew(4deg);
 				opacity: 0.6;
+				width: 300px;
 			}
         }
 		.hero__content-botones{
