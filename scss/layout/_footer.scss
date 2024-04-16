@@ -21,7 +21,7 @@
     }
 }
 
-@media (min-width:1024px){
+@include desktop{
 	.logo-footer{
 		width: 60px;
 	}

@@ -67,13 +67,14 @@
     }
 }
 
-@media (min-width:1024px){
+@include desktop{
     .hero2__content-container{
-        padding: 50px 300px;
+        padding: 50px 200px;
+        margin: 0 100px;
         .hero2__img{
-            width: 800px;
-            top: 180px;
-            left: 780px;
+            width: 650px;
+            top: 310px;
+            left: 750px;
         }
         .hero2__content{
             gap: 50px;
@@ -124,7 +125,7 @@
     }
 }
 
-@media (min-width:788px) and (max-width:990px){
+@include tablet{
     .hero2__content-container{
         .hero2__img{
         width: 600px;
@@ -165,6 +166,17 @@
         }
         #hero__container-buttons-primary{
             font-size: 23px;
+        }
+    }
+}
+
+@media (min-width:991px) and (max-width:1500px){
+    .hero2__content-container{
+        padding: 50px 100px;
+        .hero2__img{
+            width: 600px;
+            top: 360px;
+            left: 610px;
         }
     }
 }

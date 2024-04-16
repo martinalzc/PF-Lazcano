@@ -51,7 +51,7 @@ svg{
 }
 
 
-@media (min-width:1024px){
+@include desktop{
 	.logo{
 		width: 60px;
 		margin-right: 25px;

@@ -81,7 +81,7 @@ svg {
   gap: 20px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 991px) {
   .logo {
     width: 60px;
     margin-right: 25px;
@@ -192,7 +192,7 @@ svg {
   font-size: 30px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 991px) {
   .about__container {
     display: flex;
     flex-direction: column;
@@ -249,7 +249,7 @@ svg {
   font-size: 15px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 991px) {
   .logo-footer {
     width: 60px;
   }
@@ -300,7 +300,7 @@ svg {
   grid-area: card__3;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 991px) {
   .products-container {
     padding: 80px 0 80px;
     row-gap: 90px;
@@ -310,7 +310,7 @@ svg {
     justify-content: space-evenly;
   }
 }
-@media (min-width: 600px) and (max-width: 1023px) {
+@media (min-width: 788px) and (max-width: 990px) {
   .products-container {
     grid-template-areas: "card__1 card__2" "card__3 card__4" "card__5 card__6" "card__7 card__8" "card__9 card__10" "card__11 card__12";
     grid-template-columns: auto auto;
@@ -386,7 +386,7 @@ main {
   color: #5C6574;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 991px) {
   .hero2 {
     display: flex;
     flex-direction: row;
@@ -520,14 +520,15 @@ main {
   padding-left: 20px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 991px) {
   .hero2__content-container {
-    padding: 50px 300px;
+    padding: 50px 200px;
+    margin: 0 100px;
   }
   .hero2__content-container .hero2__img {
-    width: 800px;
-    top: 180px;
-    left: 780px;
+    width: 650px;
+    top: 310px;
+    left: 750px;
   }
   .hero2__content-container .hero2__content {
     gap: 50px;
@@ -606,6 +607,16 @@ main {
   }
   .hero2__content-container #hero__container-buttons-primary {
     font-size: 23px;
+  }
+}
+@media (min-width: 991px) and (max-width: 1500px) {
+  .hero2__content-container {
+    padding: 50px 100px;
+  }
+  .hero2__content-container .hero2__img {
+    width: 600px;
+    top: 360px;
+    left: 610px;
   }
 }
 

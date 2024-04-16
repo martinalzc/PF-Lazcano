@@ -67,7 +67,7 @@ main{
     }
 }
 
-@media (min-width:1024px){
+@include desktop{
     .hero2{
         display: flex;
         flex-direction: row;
@@ -111,7 +111,7 @@ main{
     }
 }
 
-@media (min-width:788px) and (max-width:990px){
+@include tablet{
     .hero2{
         display: flex;
         flex-direction: column;
