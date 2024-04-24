@@ -21,14 +21,32 @@
     }
 }
 
-#footer-button{  
-	background-color: $secondary-color;
-	color: $primary-color;
-	border: $secondary-color;
+.card{  
+	.card-body{
+		a{
+            background-color: $secondary-color;
+	        color: $primary-color;
+	        border: $secondary-color;
+	        box-shadow: $box-shadow;
+	        &:hover{
+		       transform: scale(1.1);
+	        }
+		}
+	}
+}
+
+.carrito-boton{
+	width: 80px;
+	background-color:$secondary-color;
+	color:$primary-color;
+	border:$secondary-color;
 	box-shadow: $box-shadow;
+	padding: 5px;
+	text-decoration: none;
+	border-radius: 8px;
+	font-size: 17px;
 	&:hover{
 		transform: scale(1.1);
 	}
 }
-
 

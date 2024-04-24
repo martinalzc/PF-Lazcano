@@ -1,40 +1,36 @@
-.card-header{
-    color: $secondary-color;
-}
-
-.logo-footer{
-	width: 40px;
-}
-
-.card-body{
-    h5{
-	color: $secondary-color;
-	font-weight: bold;
-	padding: 10px 0 10px;
-    }
-}
-
-.card-body{ 
-    p{
-	color: $extra-color;
-	font-size: 15px;
-    }
+.card{
+    .card-body{
+		background-color: $card-color;
+		.logo-footer{
+			width: 40px;
+		}
+		h5{
+		    color: $secondary-color;
+		    font-weight: bold;
+		    padding: 10px 0 10px;
+		}
+		p{
+			color: $primary-color;
+			font-size: 15px;
+		}
+	}
 }
 
 @include desktop{
-	.logo-footer{
-		width: 60px;
-	}
-
-	.card-body h5{
-		font-size: 25px;
-	}
-	
-	#footer-button{  
-		font-size: 18px;
-	}
-	
-	.card-body p{
-		font-size: 17px;
+	.card{
+		.card-body{
+			.logo-footer{
+				width: 60px;
+			}
+			h5{
+				font-size: 25px;
+			}
+			p{
+				font-size: 20px;
+			}
+			a{
+				font-size: 18px;
+			}
+		}
 	}
 }

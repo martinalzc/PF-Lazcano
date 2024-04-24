@@ -7,16 +7,25 @@
     }
     nav{
         div{
-            a{
                 h1{
                     color: $secondary-color;
-                    font-weight: 700;
+                    font-weight: bold;
                 }
             }
-
         }
     }
     .logo{
-        width: 40px;
+        width: 45px;
     }
-}
+
+    @include desktop{
+        .header{
+            nav{
+                div{
+                    h1{
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }

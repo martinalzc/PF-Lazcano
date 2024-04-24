@@ -23,37 +23,148 @@
 	;
     grid-template-columns: auto;
 	grid-template-rows: repeat(19, auto);
-	justify-content: center;
 	row-gap: 30px;
+	justify-content: center;
 	background-color: $tertiary-color;
 	padding: 40px 0 40px ;
+	position: relative;
+	.card{
+		width: 220px;
+		height: 400px;
+		background-color: $tertiary-color;
+		border-color: $tertiary-color;
+		.thecard{
+			position: absolute;
+		    width: 100%;
+		    height: 100%;
+		    transform-style: preserve-3d;
+		    transition: all 0.5s ease;
+			&:hover{
+				transform: rotateY(180deg);
+			}
+		.thefront{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			backface-visibility: hidden;
+			background: $card-color;
+			border-radius: 8px;
+			display: flex;
+			flex-direction: column;
+			box-shadow: $box-shadow;
+			img{
+				width: 218px;
+				height: auto;
+				border-radius: 8px 8px 0 0;
+			}
+			h3{
+				color: $secondary-color;
+				font-weight: bold;
+				margin: 10px 0 20px 10px;
+			}
+			span{
+				color: $primary-color;
+				margin-left: 10px;
+			}
+		}
+		.theback{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			backface-visibility: hidden;
+			background: $card-color;
+			transform: rotateY(180deg);
+			border-radius: 8px;
+			display: flex;
+			flex-direction: column;
+			column-gap: 10px;
+			text-align: center;
+			align-items: center;
+			box-shadow: $box-shadow;
+			h5{
+				color: $primary-color;
+				margin-top: 20px;
+			}
+			h3{
+				color: $secondary-color;
+				font-weight: bold;
+				margin-top: 10px;
+			}
+			h4{
+				margin-top: 10px;
+				color: $secondary-color;
+				font-weight: bold;
+			}
+			p{
+				margin: 10px 10px;
+				color: $primary-color;
+			}
+			a{
+				margin-bottom: 10px;
+			}
+		}
+		}
+		.card__1{
+			grid-area: card__1;
+		}
+		.card__2{
+			grid-area: card__2;
+		}
+		.card__3{
+			grid-area: card__3;
+		}
+		.card__4{
+			grid-area: card__4;
+		}
+		.card__5{
+			grid-area: card__5;
+		}
+		.card__6{
+			grid-area: card__6;
+		}
+		.card__7{
+			grid-area: card__7;
+		}
+		.card__8{
+			grid-area: card__8;
+		}
+		.card__9{
+			grid-area: card__9;
+		}
+		.card__10{
+			grid-area: card__10;
+		}
+		.card__11{
+			grid-area: card__11;
+		}
+		.card__12{
+			grid-area: card__12;
+		}
+		.card__13{
+			grid-area: card__13;
+		}
+		.card__14{
+			grid-area: card__14;
+		}
+		.card__15{
+			grid-area: card__15;
+		}
+		.card__16{
+			grid-area: card__16;
+		}
+		.card__17{
+			grid-area: card__17;
+		}
+		.card__18{
+			grid-area: card__18;
+		}
+		.card__19{
+			grid-area: card__19;
+		}
+	}
 }
 
-.card-body{
-	background-color: $card-color;
-	border-radius: 0 0 5px 5px;
-	box-shadow: $box-shadow;
-    p{
-        color: $primary-color;
-    }
-    a{
-        background-color: $secondary-color;
-	    border: $secondary-color;
-	    box-shadow: $box-shadow;
-    }
-}
 
-.card__1{
-	grid-area: card__1;
-}
-
-.card__2{
-	grid-area: card__2;
-}
-
-.card__3{
-	grid-area: card__3;
-}
 
 @include desktop{
 	.products-container{
@@ -67,7 +178,7 @@
 		"card__17 card__18 card__19 ."
 		;
 		grid-template-columns: repeat(4, auto);
-		grid-template-rows: repeat(3, auto);
+		grid-template-rows: repeat(5, auto);
 		justify-content: space-evenly;
 	}
 }
