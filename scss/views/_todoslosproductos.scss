@@ -1,3 +1,21 @@
+.hero__content-container{
+	.hero__content-h2{
+		div{
+			p{
+				color: $primary-color;
+				background-color: $secondary-color;
+				border-radius: 20px;
+				box-shadow: $box-shadow;
+				transform: skew(4deg);
+				opacity: 0.6;
+				width: 300px;
+			}
+		}
+	}
+}
+
+
+
 .products-container{
 	display: grid;
 	grid-template-areas: 
