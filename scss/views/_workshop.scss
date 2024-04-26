@@ -47,23 +47,22 @@
         p{
             color: $extra-color;
             font-size: 16px;
-            padding-left: 0;
-            }
+            padding-left: 20px;
+        }
+        .span{
+            padding: 20px 0 10px;
+            color: $extra-color;
+            font-size: 16px;
+            width: 200px;
+        }
     }
     .hero2__content-2{
         padding: 0 0 60px 0;
         p{
         color: $extra-color;
         font-size: 16px;
+        padding-left:20px ;
         }
-    }
-    .span{
-        padding: 20px 0 0 0;
-        color: $extra-color;
-        font-size: 16px;
-        width: 170px;
-        text-align: left;
-        padding-left: 20px;
     }
 }
 
@@ -107,19 +106,19 @@
             width: 400px;
         }
         .hero2__content-1{
-            padding-left: 0;
+            padding-left: 20px;
             width: 750px;
             p{
                 font-size: 20px;
             }
             }
         .hero2__content-2{
-            padding-left: 0;
+            padding-left: 20px;
             p{
                 font-size: 20px;
             }
-            #hero__container-buttons-primary{
-                font-size: 23px;
+            .workshop-button{
+                font-size: 20px;
             }
         }
     }

@@ -50,3 +50,19 @@
 	}
 }
 
+.workshop-button{
+	margin-left: 20px;
+	width: auto;
+	background-color:$secondary-color;
+	color:$primary-color;
+	border:$secondary-color;
+	box-shadow: $box-shadow;
+	padding: 6px;
+	text-decoration: none;
+	border-radius: 6px;
+	font-size: 17px;
+	&:hover{
+		transform: scale(1.1);
+	}
+}
+

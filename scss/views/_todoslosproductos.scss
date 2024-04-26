@@ -80,9 +80,14 @@
 				font-weight: bold;
 				margin: 10px 0 20px 10px;
 			}
-			span{
+			h5{
 				color: $primary-color;
 				margin-left: 10px;
+			}
+			span{
+				font-weight: bold;
+				color: $primary-color;
+				align-self: center;
 			}
 		}
 		.theback{
@@ -119,6 +124,11 @@
 			}
 			a{
 				margin-bottom: 10px;
+			}
+			span{
+				font-weight: bold;
+				color: $primary-color;
+				align-self: center;
 			}
 		}
 		}
